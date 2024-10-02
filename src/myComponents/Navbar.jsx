@@ -71,6 +71,7 @@ const Navbar = ({ isSideBarOpen, setIsSideBarOpen }) => {
 
 
                     {/* <PopoverHover /> */}
+                    {/* Update */}
                 </div>
             </div>
         </>
