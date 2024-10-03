@@ -16,6 +16,8 @@ const App = () => {
         <Suspense>
           <Routes>
             <Route path="/" element={<Home />} />
+            {/* <Route path="/@*:slug" element={ <h1>Hello</h1> } /> */}
+            <Route path="/@*:username" element={<h2>fff</h2>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

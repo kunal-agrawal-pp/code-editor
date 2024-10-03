@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Sidebar from './Sidebar'
 import Navbar from './Navbar'
 
 const BasicTemplate = ({ children }) => {
   const [isSideBarOpen, setIsSideBarOpen] = useState(true);
-
-
-  useEffect(() => {
-    console.log(isSideBarOpen)
-  }, [isSideBarOpen])
 
   return (
     <>
